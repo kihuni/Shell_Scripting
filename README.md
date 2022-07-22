@@ -17,3 +17,4 @@
    - The Korn Shell
    
    - The GNU Bourne-Again Shell 
+- In linux we specify a shebang at the top `#!/bin/bash` so that inux knowswhat interpreter to use
