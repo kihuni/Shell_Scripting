@@ -11,7 +11,7 @@
   # Use uppercase by convention
   # letters, numbers, underscores
 
-NAME="Stephen"
+    #NAME="Kihuni"
 
     #echo "my name is ${NAME}"
 
@@ -22,7 +22,39 @@ NAME="Stephen"
 
 # If statament
 
-if [ "$NAME" == "Stephen" ]
-then
-   echo "My name is Stephen"
-fi
+    #if [ "$NAME" == "Stephen" ]
+    #then
+    #  echo "My name is Stephen"
+    #fi
+
+# If-Else statement
+
+    #if [ "$NAME" == "Stephen" ]
+    #then
+    # echo "My name is Stephen"
+    #else
+    #  echo "Oops! an Error occured. Your name is Not Stephen"
+    #fi
+
+#Else-If(elif) statement
+
+   # if [ "$NAME" == "Stephen" ]
+    #then
+     #echo "My name is Stephen"
+    #else
+     #echo "Oops! an Error occured. Your name is Not Stephen"
+    #else
+    # echo "My name is Not Stephen or Kihuni"
+   # fi
+
+#Comparisons
+
+   NUM1=3
+   NUM2=5
+   if ["$NUM1" -gt "$NUM2" ]
+   then
+     echo "$NUM1 is greater than $NUM2"
+   else
+     echo "$NUM1 is less than $NUM2"
+   fi
+
