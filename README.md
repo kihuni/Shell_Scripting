@@ -16,4 +16,6 @@
 
    - The Korn Shell
    
-   - The GNU Bourne-Again Shell 
+   - The GNU Bourne-Again Shell
+   
+   Learn more basics of shell script using bash [here](https://github.com/kihuni/Shell_Scripting/blob/main/myscript.sh)
