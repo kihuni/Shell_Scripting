@@ -21,5 +21,5 @@
 - In linux we specify a shebang at the top `#!/bin/bash` so that linux knowswhat interpreter to use
 
    
-   Learn more basics of shell script using bash [here](https://github.com/kihuni/Shell_Scripting/blob/main/myscript.sh)
+   Learn basics of shell script using bash [here](https://github.com/kihuni/Shell_Scripting/blob/main/myscript.sh)
 
