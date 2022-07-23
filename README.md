@@ -15,7 +15,6 @@
    - The C Shell
 
    - The Korn Shell
-<<<<<<< HEAD
    
    - The GNU Bourne-Again Shell 
 
@@ -23,13 +22,12 @@
 
    
    Learn more basics of shell script using bash [here](https://github.com/kihuni/Shell_Scripting/blob/main/myscript.sh)
-=======
-
+   
    - The GNU Bourne-Again Shell 
    
 - In linux we specify a shebang at the top `#!/bin/bash` so that linux knowswhat interpreter to use
 
    
    Learn basics of shell script using bash [here](https://github.com/kihuni/Shell_Scripting/blob/main/myscript.sh)
->>>>>>> 443137ad77c48d578e87f9d170cf55a5d947baf5
+
 
