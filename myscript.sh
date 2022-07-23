@@ -59,11 +59,65 @@
   # fi
 
 #File Conditions
-FILE="test.txt"
-if [ -f "$FILE" ]
-then 
-  echo "$FILE is a file"
-else
-  echo "$FILE doesn't Exist"
-fi
+   #FILE="test.txt"
+   #if [ -f "$FILE" ]
+   #then 
+   # echo "$FILE is a file"
+   #else
+   #echo "$FILE doesn't Exist"
+   #fi
+#Case Statement
 
+   #read -p "Are you 21 or over? Y/N " ANSWER
+   #case "$ANSWER" in
+   #[yY] | [yY][eE][sS])
+   #  echo "you can have a beer :)"	
+   #   ;;
+   # [nN] | [nN][oO])
+   #  echo "Sorry, No drinking"
+   #   ;;
+   # *)
+   #  echo "Please enter y/yes or n/no"
+   #   ;;
+   # esac   
+# For loop
+    
+   # NAMES="STEPHEN, KIHUNI, MUIRURI"
+   #for NAME in $NAMES
+   # do
+   #   echo "Hello $NAME"
+   # done
+
+# For loop to rename files
+
+   # FILES=$(ls *.txt)
+   # NEW="new"
+   # for FILE in $FILES
+   #   do
+   #	echo "renamin $FILE to new-$FILE"
+   #	mv $FILE $NEW-$FILE
+   # done
+
+# While loop 
+
+   # COUNT=1
+   # while read -r CURRENT_LINE
+   #	do 
+   #	  echo "$COUNT: $CURRENT_LINE
+   #	   ((LINE++))
+   # done < "./new-you.txt"	
+
+# Function
+
+   # function greet() {
+   #echo "Hello, I am $1 and I am $2"
+   # }
+
+   # greet "Stephen" "28"
+
+# Creating a folder and Write to file
+
+    mkdir hey
+    touch "hey/me.txt"
+    echo "hey I am new at this, Okay!" >> "hey/me.txt"
+ 
