@@ -2,7 +2,7 @@
 
 
 
-- To do that create a file with extension `sh`. See [https://github.com/kihuni/Shell_Scripting/blob/main/pipe/piped.sh)
+- To do that create a file with extension `sh`. See [here](https://github.com/kihuni/Shell_Scripting/blob/main/pipe/piped.sh)
 
 - Then Run `ls -l | ./nameOfFile.sh`, like:
 
