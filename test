@@ -1,0 +1,10 @@
+#!/bin/bash
+
+filen="test.txt"
+
+if[ -e "$filen" ]
+then 
+  echo "the file exist"
+else 
+  echo "file doesn't exist"
+fi
